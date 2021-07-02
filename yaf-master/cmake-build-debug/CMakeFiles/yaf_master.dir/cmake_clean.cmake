@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/yaf_master.dir/configs/yaf_config_ini.c.obj"
+  "CMakeFiles/yaf_master.dir/configs/yaf_config_simple.c.obj"
+  "CMakeFiles/yaf_master.dir/requests/yaf_request_http.c.obj"
+  "CMakeFiles/yaf_master.dir/requests/yaf_request_simple.c.obj"
+  "CMakeFiles/yaf_master.dir/responses/yaf_response_cli.c.obj"
+  "CMakeFiles/yaf_master.dir/responses/yaf_response_http.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_interface.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_map.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_regex.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_rewrite.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_simple.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_static.c.obj"
+  "CMakeFiles/yaf_master.dir/routes/yaf_route_supervar.c.obj"
+  "CMakeFiles/yaf_master.dir/views/yaf_view_interface.c.obj"
+  "CMakeFiles/yaf_master.dir/views/yaf_view_simple.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_action.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_application.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_bootstrap.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_config.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_controller.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_dispatcher.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_exception.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_loader.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_plugin.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_registry.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_request.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_response.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_router.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_session.c.obj"
+  "CMakeFiles/yaf_master.dir/yaf_view.c.obj"
+  "libyaf_master.dll.a"
+  "yaf_master.exe"
+  "yaf_master.exe.manifest"
+  "yaf_master.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/yaf_master.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

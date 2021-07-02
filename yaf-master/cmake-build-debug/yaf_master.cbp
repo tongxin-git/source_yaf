@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="yaf_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/gitee/source_yaf/yaf-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaf_master">
+				<Option output="D:/gitee/source_yaf/yaf-master/cmake-build-debug/yaf_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/gitee/source_yaf/yaf-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/gitee/source_yaf/yaf-master/."/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/configs"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/requests"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/responses"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/routes"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/views"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 yaf_master"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaf_master/fast">
+				<Option output="D:/gitee/source_yaf/yaf-master/cmake-build-debug/yaf_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/gitee/source_yaf/yaf-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/gitee/source_yaf/yaf-master/."/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/configs"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/requests"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/responses"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/routes"/>
+					<Add directory="D:/gitee/source_yaf/yaf-master/views"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 yaf_master/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/gitee/source_yaf/yaf-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/gitee/source_yaf/yaf-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/gitee/source_yaf/yaf-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/configs/yaf_config_ini.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/configs/yaf_config_ini.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/configs/yaf_config_simple.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/configs/yaf_config_simple.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/php_yaf.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/requests/yaf_request_http.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/requests/yaf_request_http.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/requests/yaf_request_simple.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/requests/yaf_request_simple.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/responses/yaf_response_cli.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/responses/yaf_response_cli.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/responses/yaf_response_http.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/responses/yaf_response_http.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_interface.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_interface.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_map.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_map.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_regex.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_regex.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_rewrite.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_rewrite.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_simple.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_simple.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_static.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_static.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_supervar.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/routes/yaf_route_supervar.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/views/yaf_view_interface.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/views/yaf_view_interface.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/views/yaf_view_simple.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/views/yaf_view_simple.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_action.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_action.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_application.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_application.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_bootstrap.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_bootstrap.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_config.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_config.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_controller.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_controller.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_dispatcher.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_dispatcher.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_exception.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_exception.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_loader.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_loader.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_logo.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_namespace.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_plugin.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_plugin.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_registry.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_registry.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_request.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_request.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_response.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_response.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_router.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_router.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_session.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_session.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_view.c">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/yaf_view.h">
+			<Option target="yaf_master"/>
+		</Unit>
+		<Unit filename="D:/gitee/source_yaf/yaf-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

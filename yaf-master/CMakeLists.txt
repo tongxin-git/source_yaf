@@ -1,0 +1,77 @@
+cmake_minimum_required(VERSION 3.15)
+project(yaf_master C)
+
+set(CMAKE_C_STANDARD 11)
+
+include_directories(.)
+include_directories(configs)
+include_directories(requests)
+include_directories(responses)
+include_directories(routes)
+include_directories(views)
+
+add_executable(yaf_master
+        configs/yaf_config_ini.c
+        configs/yaf_config_ini.h
+        configs/yaf_config_simple.c
+        configs/yaf_config_simple.h
+        requests/yaf_request_http.c
+        requests/yaf_request_http.h
+        requests/yaf_request_simple.c
+        requests/yaf_request_simple.h
+        responses/yaf_response_cli.c
+        responses/yaf_response_cli.h
+        responses/yaf_response_http.c
+        responses/yaf_response_http.h
+        routes/yaf_route_interface.c
+        routes/yaf_route_interface.h
+        routes/yaf_route_map.c
+        routes/yaf_route_map.h
+        routes/yaf_route_regex.c
+        routes/yaf_route_regex.h
+        routes/yaf_route_rewrite.c
+        routes/yaf_route_rewrite.h
+        routes/yaf_route_simple.c
+        routes/yaf_route_simple.h
+        routes/yaf_route_static.c
+        routes/yaf_route_static.h
+        routes/yaf_route_supervar.c
+        routes/yaf_route_supervar.h
+        views/yaf_view_interface.c
+        views/yaf_view_interface.h
+        views/yaf_view_simple.c
+        views/yaf_view_simple.h
+        php_yaf.h
+        yaf.c
+        yaf_action.c
+        yaf_action.h
+        yaf_application.c
+        yaf_application.h
+        yaf_bootstrap.c
+        yaf_bootstrap.h
+        yaf_config.c
+        yaf_config.h
+        yaf_controller.c
+        yaf_controller.h
+        yaf_dispatcher.c
+        yaf_dispatcher.h
+        yaf_exception.c
+        yaf_exception.h
+        yaf_loader.c
+        yaf_loader.h
+        yaf_logo.h
+        yaf_namespace.h
+        yaf_plugin.c
+        yaf_plugin.h
+        yaf_registry.c
+        yaf_registry.h
+        yaf_request.c
+        yaf_request.h
+        yaf_response.c
+        yaf_response.h
+        yaf_router.c
+        yaf_router.h
+        yaf_session.c
+        yaf_session.h
+        yaf_view.c
+        yaf_view.h)
